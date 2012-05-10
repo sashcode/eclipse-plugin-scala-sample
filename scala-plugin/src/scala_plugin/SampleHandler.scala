@@ -1,4 +1,4 @@
-package sample.scala.handlers
+package scala_plugin
 import org.eclipse.core.commands.AbstractHandler
 import org.eclipse.core.commands.ExecutionEvent
 import org.eclipse.jface.dialogs.MessageDialog

@@ -9,7 +9,7 @@
             id="scala-plugin.commands.category">
       </category>
       <command
-            name="Scala Command"
+            name="Scala"
             categoryId="scala-plugin.commands.category"
             id="scala-plugin.commands.sampleCommand">
       </command>
@@ -18,24 +18,15 @@
          point="org.eclipse.ui.handlers">
       <handler
             commandId="scala-plugin.commands.sampleCommand"
-            class="scalaplugin.handlers.SampleHandler">
+            class="scala_plugin.SampleHandler">
       </handler>
-   </extension>
-   <extension
-         point="org.eclipse.ui.bindings">
-      <key
-            commandId="scala-plugin.commands.sampleCommand"
-            contextId="org.eclipse.ui.contexts.window"
-            sequence="M1+6"
-            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
-      </key>
    </extension>
    <extension
          point="org.eclipse.ui.menus">
       <menuContribution
             locationURI="menu:org.eclipse.ui.main.menu?after=additions">
          <menu
-               label="Scala Menu"
+               label="Scala"
                mnemonic="M"
                id="scala-plugin.menus.sampleMenu">
             <command
